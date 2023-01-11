@@ -7,6 +7,7 @@
 	"service": "app",
 	"workspaceFolder": "/app",
 	"extensions": [
+		"batisteo.vscode-django",
 		"waderyan.gitblame",
 		"mhutchie.git-graph",
 		"shardulm94.trailing-spaces",
@@ -17,6 +18,10 @@
 		"python.formatting.blackPath": "/usr/local/bin/black",
 		"[python]": {
 			"editor.formatOnSave": true
-		}
+		},
+		"[django-html]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "batisteo.vscode-django"
+		 }
 	}
 }
